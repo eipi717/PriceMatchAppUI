@@ -5,6 +5,7 @@ import 'package:price_match_app_ui/models/product.dart';
 
 class HistoryPricesServices {
 
+  // TODO: replaced the local address with env
   final dio = Dio(
     BaseOptions(
       baseUrl: 'http://10.0.0.34:8080/api/v1/historicalPrice',

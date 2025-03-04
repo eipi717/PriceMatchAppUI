@@ -3,7 +3,7 @@ import 'package:price_match_app_ui/models/price.dart';
 import 'package:price_match_app_ui/models/product.dart';
 
 class PriceServices {
-
+  // TODO: replaced the local address with env
   final dio = Dio(
     BaseOptions(
       baseUrl: 'http://10.0.0.34:8080/api/v1/prices',
